@@ -1,4 +1,3 @@
-```markdown
 ```mermaid
 sequenceDiagram
     participant Dev as Developer

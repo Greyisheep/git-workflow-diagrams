@@ -1,4 +1,4 @@
 ```mermaid
 graph TD
-    A[Create GitHub Repository] --> B[git clone <repository-url>]
-    B --> C[cd <repository-name>]
+    A[Create GitHub Repository] --> B[git clone &lt repository-url &gt]
+    B --> C[cd &lt repository-name &gt]
