@@ -4,7 +4,7 @@ graph TD
     B --> C[Set Up Upstream Repository: <br>`git remote add upstream &lt original-repo-url &gt`]
     C --> D[Create a New Branch: <br>`git checkout -b &lt feature-branch-name &gt`]
     D --> E[Make Changes Locally]
-    E --> F[Add Changes: <br>`git add .`<br>Commit Changes: <br>`git commit -m 'message'`]
+    E --> F[Add Changes: <br>`git add .`<br>Commit Changes: <br>`git commit -m &lt message &gt`]
     F --> G{Open an Issue?}
     G -->|Yes| H[Write an Issue]
     G -->|No| I[Skip Issue]
